@@ -1,0 +1,65 @@
+h1{
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family:cursive;
+}
+body{
+    background-color: rgb(196, 223, 226);
+}
+#gameContainer{
+    text-align: center;
+}
+#text{
+    font-size: 34px;
+    padding: 20px;
+}
+#playerText{
+    padding: 5px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#computerText{
+    padding: 5px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#resultText{
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.choiceBtns{
+    background-color:rgb(148, 100, 100);
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px rgb(0,0,0,0.664);
+    margin: 12px;
+  }
+
+  @media (max-width:468px){
+    h1{
+        font-size: 45px;
+        background-color:black;
+        color:rgba(234, 234, 218, 0.848);
+    }
+    #playerText{
+        font-weight: 500;
+        font-size: 32px;
+    }
+    #computerText{
+        font-weight: 500;
+        font-size: 26px;
+    }
+    #resultText{
+        font-weight: 500;
+        font-size: 35px;
+    }
+    .choiceBtns{
+        background-color: rgba(255, 80, 226, 0.066);
+    }
+    
+  }
